@@ -1,0 +1,29 @@
+body{
+    background-image: url("gravater.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    /* background: #ffffff url("gravater.jpg") no-repeat right top; */
+}
+
+/* id选择器 */
+#para1 {
+    text-align: center;
+    color: rgb(76, 0, 255);
+
+}
+
+/* css元素选择器 */
+p {
+    text-align: left;
+    color: black;
+}
+
+/* 类选择器 */
+.center {
+    text-align: center;
+    color: rgb(241, 242, 247);
+    background-color:DodgerBlue;
+    opacity: 0.3; /*不透明度/透明度*/
+    border:2px solid Tomato; /*边框*/
+}
